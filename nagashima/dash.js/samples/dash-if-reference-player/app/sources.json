@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "name": "QoEmodel recipe",
+      "submenu": [
+        {
+          "url": "http://192.168.90.10/nagashima/sdnDASH/dashContent/bigbuckbunny1080p/bigbuckbunny1080p_MultiReso.mpd",
+          "name": "bigbuckbunny"
+        },
+        {
+          "url": "http://192.168.90.10/nagashima/sdnDASH/dashContent/elephantsdream1080p/elephantsdream1080p_MultiReso.mpd",
+          "name": "elephantsdream"
+        },
+        {
+          "url": "http://192.168.90.10/nagashima/sdnDASH/dashContent/sintel1080p/sintel1080p_MultiReso.mpd",
+          "name": "sintel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+  1 —ñ‚©‚ç 11 —ñ
+
+    'bf_r1'    'bf_r2'    'bf_r3'    'bf_r4'    'bf_f1'    'bf_f2'    'bf_f4'    'bf_fr4'    'bf_s14'    'bf_s24'    'bf_s34'
+
+  12 —ñ‚©‚ç 22 —ñ
+
+    'bf_t14'    'bf_t124'    'bf_t421'    'bf_t134'    'bf_t431'    'bf_w1'    'bf_w2'    'bf_w3'    'bf_w4'    'dv_r1'    'dv_r2'
+
+  23 —ñ‚©‚ç 33 —ñ
+
+    'dv_r3'    'dv_r4'    'dv_f1'    'dv_f2'    'dv_f4'    'dv_fr4'    'dv_s14'    'dv_s24'    'dv_s34'    'dv_t14'    'dv_t124'
+
+  34 —ñ‚©‚ç 44 —ñ
+
+    'dv_t421'    'dv_t134'    'dv_t431'    'dv_w1'    'dv_w2'    'dv_w3'    'dv_w4'    'fc_r1'    'fc_r2'    'fc_r3'    'fc_r4'
+
+  45 —ñ‚©‚ç 54 —ñ
+
+    'fc_f1'    'fc_f2'    'fc_f4'    'fc_fr4'    'fc_s14'    'fc_s24'    'fc_s34'    'fc_t14'    'fc_t124'    'fc_t421'
+
+  55 —ñ‚©‚ç 65 —ñ
+
+    'fc_t134'    'fc_t431'    'fc_w1'    'fc_w2'    'fc_w3'    'fc_w4'    'hc_r1'    'hc_r2'    'hc_r3'    'hc_r4'    'hc_f1'
+
+  66 —ñ‚©‚ç 75 —ñ
+
+    'hc_f2'    'hc_f4'    'hc_fr4'    'hc_s14'    'hc_s24'    'hc_s34'    'hc_t14'    'hc_t124'    'hc_t421'    'hc_t134'
+
+  76 —ñ‚©‚ç 86 —ñ
+
+    'hc_t431'    'hc_w1'    'hc_w2'    'hc_w3'    'hc_w4'    'la_r1'    'la_r2'    'la_r3'    'la_r4'    'la_f1'    'la_f2'
+
+  87 —ñ‚©‚ç 96 —ñ
+
+    'la_f4'    'la_fr4'    'la_s14'    'la_s24'    'la_s34'    'la_t14'    'la_t124'    'la_t421'    'la_t134'    'la_t431'
+
+  97 —ñ‚©‚ç 100 —ñ
+
+    'la_w1'    'la_w2'    'la_w3'    'la_w4'
