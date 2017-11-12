@@ -30,6 +30,7 @@ var out_th = [];
 var out_rep = [];
 var out_seg=[];
 var out_idx=[];
+var out_df=[];
 var state = "Start up";
 var flag_start = true;
 
