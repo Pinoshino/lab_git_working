@@ -5,8 +5,7 @@ function download_log(){
   finalVal += result;
   finalVal += '\n';
   for (var i = 0; i < out_time.length; i++) {
-    result = ipAddress + "," + StartTime + "," + out_state[i] + "," + out_time[i] \
-    + "," + out_buf[i] +  "," + out_rep[i] + "," + out_idx[i] + "," + out_df[i];
+    result = ipAddress + "," + StartTime + "," + out_state[i] + "," + out_time[i] + "," + out_buf[i] +  "," + out_rep[i] + "," + out_idx[i] + "," + out_df[i];
     finalVal += result;
     finalVal += '\n';
   }
