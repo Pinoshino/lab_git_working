@@ -2,7 +2,7 @@ function download_log(){
   var finalVal = '';
 
   var result="IPaddress,StartTime,State,Time,Buffer,Representation,index,DropFrame" +
-  ",DropFrame,Latency(low),Latency(average),Latency(high), DownloadTime(low), DownloadTime(average), DownloadTime(high)";
+  ",Latency(low),Latency(average),Latency(high), DownloadTime(low), DownloadTime(average), DownloadTime(high)";
   finalVal += result;
   finalVal += '\n';
   for (var i = 0; i < out_time.length; i++) {
