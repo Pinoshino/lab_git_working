@@ -725,6 +725,9 @@ app.controller('DashController', function($scope, sources, contributors) {
             out_rep[count] = bitrate;
             out_idx[count] = $scope["video"+ "PendingIndex"];
             out_df[count] = droppedFPS;
+            out_latency_low[count] = httpMetrics.latency[type].low.toFixed(2);
+            out_latency_average[count] = httpMetrics.latency[type].average.toFixed(2);
+            out_latency_high[count] = httpMetrics.latency[type].high.toFixed(2);
 
             count++;
         }
