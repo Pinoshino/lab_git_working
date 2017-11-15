@@ -728,6 +728,9 @@ app.controller('DashController', function($scope, sources, contributors) {
             out_latency_low[count] = httpMetrics.latency[type].low.toFixed(2);
             out_latency_average[count] = httpMetrics.latency[type].average.toFixed(2);
             out_latency_high[count] = httpMetrics.latency[type].high.toFixed(2);
+            out_d_time_low[count] = httpMetrics.download[type].low.toFixed(2);
+            out_d_time_average[count] = httpMetrics.download[type].average.toFixed(2);
+            out_d_time_high[count] = httpMetrics.download[type].high.toFixed(2);
 
             count++;
         }
