@@ -30,6 +30,13 @@ var out_th = [];
 var out_rep = [];
 var out_seg=[];
 var out_idx=[];
+var out_df=[];
+var out_latency_low=[];
+var out_latency_average=[];
+var out_latency_high=[];
+var out_d_time_low=[];
+var out_d_time_average=[];
+var out_d_time_high=[];
 var state = "Start up";
 var flag_start = true;
 

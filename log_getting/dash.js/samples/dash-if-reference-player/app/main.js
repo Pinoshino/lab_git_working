@@ -499,7 +499,7 @@ app.controller('DashController', function($scope, sources, contributors) {
         var hours= now.getHours();
         var minutes= now.getMinutes();
         var seconds= now.getSeconds()
-        var milliseconds= now.getMilliseconds(); 
+        var milliseconds= now.getMilliseconds();
         StartTime=hours+":"+minutes+":"+seconds+"."+milliseconds;
         //POST OpenFlow Controller
         //$.post("http://192.168.90.10:8080/ofc/messages",{ IPaddress:ipAddress,StartTime:StartTime,State:state,Time:out_time[count],Buffer:out_buf[count], Representation:out_rep[count] });
@@ -724,6 +724,13 @@ app.controller('DashController', function($scope, sources, contributors) {
             out_buf[count] = bufferLevel;
             out_rep[count] = bitrate;
             out_idx[count] = $scope["video"+ "PendingIndex"];
+            out_df[count] = droppedFPS;
+            out_latency_low[count] = httpMetrics.latency[type].low.toFixed(2);
+            out_latency_average[count] = httpMetrics.latency[type].average.toFixed(2);
+            out_latency_high[count] = httpMetrics.latency[type].high.toFixed(2);
+            out_d_time_low[count] = httpMetrics.download[type].low.toFixed(2);
+            out_d_time_average[count] = httpMetrics.download[type].average.toFixed(2);
+            out_d_time_high[count] = httpMetrics.download[type].high.toFixed(2);
 
             count++;
         }
