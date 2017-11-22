@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT90.12336730957031S">
+  <Period>
+    <AdaptationSet id="0">
+      <Representation id="0" bandwidth="1142200" codecs="avc1.640028" mimeType="video/mp4" width="1920" height="1080">
+        <BaseURL>roller_left_up_1000k.mp4</BaseURL>
+        <SegmentBase indexRange="676-779" timescale="30000">
+          <Initialization range="0-675"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="1698446" codecs="avc1.640028" mimeType="video/mp4" width="1920" height="1080">
+        <BaseURL>roller_left_up_1500k.mp4</BaseURL>
+        <SegmentBase indexRange="676-779" timescale="30000">
+          <Initialization range="0-675"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="2262290" codecs="avc1.640028" mimeType="video/mp4" width="1920" height="1080">
+        <BaseURL>roller_left_up_2000k.mp4</BaseURL>
+        <SegmentBase indexRange="676-779" timescale="30000">
+          <Initialization range="0-675"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
