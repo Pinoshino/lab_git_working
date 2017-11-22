@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT90.08999633789062S">
+  <Period>
+    <AdaptationSet id="0">
+      <Representation id="0" bandwidth="2198555" codecs="avc1.640033" mimeType="video/mp4" width="3840" height="2160">
+        <BaseURL>roller_360_90s_whole_2000k.mp4</BaseURL>
+        <SegmentBase indexRange="676-779" timescale="30000">
+          <Initialization range="0-675"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="4317324" codecs="avc1.640033" mimeType="video/mp4" width="3840" height="2160">
+        <BaseURL>roller_360_90s_whole_4000k.mp4</BaseURL>
+        <SegmentBase indexRange="676-779" timescale="30000">
+          <Initialization range="0-675"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
