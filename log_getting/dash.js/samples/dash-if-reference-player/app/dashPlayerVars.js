@@ -37,6 +37,7 @@ var out_latency_high=[];
 var out_d_time_low=[];
 var out_d_time_average=[];
 var out_d_time_high=[];
+var out_throughput=[];
 var state = "Start up";
 var flag_start = true;
 
