@@ -1,5 +1,7 @@
 'use strict';
 
+// import AbrController from '../../../src/streaming/controllers/AbrController';
+
 var app = angular.module('DashPlayer', ['DashSourcesService', 'DashContributorsService', 'angular-flot']);
 
 $(document).ready(function () {
@@ -669,16 +671,21 @@ app.controller('DashController', function($scope, sources, contributors) {
         $scope.chartOptions.legend.noColumns = Math.min($scope.chartData.length, 5);
     };
 
+    // let context = this.context;
+    // let abrController;
+
     function updateMetrics(type) {
 
         var metrics = $scope.player.getMetricsFor(type);
         var dashMetrics = $scope.player.getDashMetrics();
+        // abrController = AbrController(context).getInstance();
 
         if (metrics && dashMetrics && $scope.streamInfo) {
 
             var periodIdx = $scope.streamInfo.index;
             var repSwitch = dashMetrics.getCurrentRepresentationSwitch(metrics);
             var bufferLevel = dashMetrics.getCurrentBufferLevel(metrics);
+            var averageThroughput = abrController.getAverageThroughput(type);
             var maxIndex = dashMetrics.getMaxIndexForBufferType(type, periodIdx);
             var index = $scope.player.getQualityFor(type);
             var bitrate = repSwitch ? Math.round(dashMetrics.getBandwidthForRepresentation(repSwitch.to, periodIdx) / 1000) : NaN;
@@ -722,6 +729,7 @@ app.controller('DashController', function($scope, sources, contributors) {
             out_time[count]= elapsed_time;
             out_state[count]= state;
             out_buf[count] = bufferLevel;
+            out_throughput[count] = averageThroughput;
             out_rep[count] = bitrate;
             out_idx[count] = $scope["video"+ "PendingIndex"];
             out_df[count] = droppedFPS;
